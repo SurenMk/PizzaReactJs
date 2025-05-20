@@ -102,7 +102,7 @@ PizzaBlock.propTypes = {
   types: PropTypes.arrayOf(PropTypes.number),
   sizes: PropTypes.arrayOf(PropTypes.number),
   onClickAddPizza: PropTypes.func,
-  addedCount: PropTypes.number
+  addedCount: PropTypes.number.isRequired
 };
 
 PizzaBlock.defaultProps = {
